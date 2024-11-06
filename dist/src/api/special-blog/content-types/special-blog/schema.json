@@ -1,0 +1,25 @@
+{
+    "kind": "collectionType",
+    "collectionName": "special_blogs",
+    "info": {
+        "singularName": "special-blog",
+        "pluralName": "special-blogs",
+        "displayName": "special-blog",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "detail": {
+            "type": "blocks"
+        }
+    }
+}
